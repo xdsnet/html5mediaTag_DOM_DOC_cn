@@ -238,6 +238,7 @@
 	for(var i=0;i<lenght;i++)
 	out=out+"第"+(i+1)+"段Start: "+myVid.buffered.start(i)+" End: "+myVid.buffered.end(0)+"\n";
 	alert(out);
+
 #### *`controller`* (所有主流浏览器都不支持)
 只读值，检测一个视频是否有对应的媒体控制器
  - 语法：`audio|video.controller`
@@ -258,6 +259,7 @@
 > 
 	myVid=document.getElementById("video1");
 	alert("Controller: " + myVid.controller);
+
 #### `controls` (所有浏览器支持)
 为音视频设置/获取对应的控件（用于控制播放，每种浏览器的样式不同）状态
  
