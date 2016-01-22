@@ -6,7 +6,7 @@
 - 更新检测的浏览器版本为（2016.1.21）：Firefox43.0.4、Chrome47.0.2526、IE11.0.9600、Opera33.0、Safari5.1.7（windows）、Safari（OSX）
 - 部分浏览器则给出具体的浏览器类型及版本号范围
 - 对于HTML标签中系列值为布尔值的属性，只要在标签中进行了定义即表示定义为`true`值，其实这些属性，只要进行了定义，且值不为`false|0|""`均表示为真。
-- 
+
 ## 音频标签
 
 ### 基本形式示例
@@ -16,7 +16,7 @@
 	</audio>
 
 或者
-
+>
 	<audio controls=”controls” autoplay=”autoplay” loop=”loop” preload=”preload”>
 		<source src=”resURI-1.ogg” type=”audio/ogg”>
 		<source src=”resURI-2.mp3” type=”audio/mpeg”>
